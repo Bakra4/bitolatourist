@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Places in Bitola"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/saatkula_img"
+            android:layout_width="match_parent"
+            android:layout_height="352dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="8dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/satot"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="The Clock Tower"
+            app:layout_constraintBottom_toTopOf="@+id/saatkula_text"
+            tools:layout_editor_absoluteX="8dp" />
+
+        <TextView
+            android:id="@+id/saatkula_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:padding="15dp"
+            android:text=" The Clock Tower of Bitola, known as Saat Kula (Macedonian: Саат кула), is a clock tower and one of the landmarks of the Macedonian city of Bitola. The Clock tower in Bitola, unlike obsolete water towers which were built by the Austro Magjar empire, is a very practical monument aiding people with the time of day.[1]
+
+According to legend, even though the existence of the Clock Tower was mentioned before in 1664, the present Clock Tower was built in the 1830s, in the same period when the Orthodox Church of St. Demetrious was being built."
+            android:textAlignment="textStart"
+            app:layout_constraintTop_toBottomOf="@+id/saatkula_img"
+            tools:layout_editor_absoluteX="-1dp" />
+
+        <ImageView
+            android:id="@+id/nacionalenpark_img"
+            android:layout_width="417dp"
+            android:layout_height="245dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/pelisterche"
+            app:layout_constraintTop_toBottomOf="@+id/saatkula_text"
+            tools:layout_editor_absoluteX="-4dp" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="National Park Pelister"
+            app:layout_constraintBottom_toTopOf="@+id/nacionalenpark_text"
+            app:layout_constraintTop_toBottomOf="@+id/nacionalenpark_img"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <TextView
+            android:id="@+id/nacionalenpark_text"
+            android:layout_width="410dp"
+            android:layout_height="277dp"
+            android:layout_marginTop="36dp"
+            android:padding="15dp"
+            android:text="Pelister National Park is a national park in the Municipality of Bitola, North Macedonia. The park is located in the Baba Mountain massif and covers an area of 171.5 square kilometres (66.2 sq mi). The altitude of the park varies between 927 and 2,601 m (3,041 and 8,533 ft) above sea level and is filled with exquisite flora and fauna. Among flora elements, the presence is especially significant of the five-needle pine molica, Pinus peuce - a unique species of Cenozoic age being present on only a few mountains in the Balkan Peninsula. The beauty of the landscape is enhanced by the diverse wildlife: bears, roe deer, wolves, chamois, deer, wild boars, rabbits, several species of eagles, partridges, red-billed choughs, and the endemic Macedonian Pelagonia trout."
+            android:textAlignment="textStart"
+            app:layout_constraintTop_toBottomOf="@+id/nacionalenpark_img"
+            tools:layout_editor_absoluteX="1dp" />
+
+        <ImageView
+            android:id="@+id/heraklea_img"
+            android:layout_width="413dp"
+            android:layout_height="300dp"
+            android:src="@drawable/heraklios"
+            android:scaleType="fitCenter"
+            app:layout_constraintTop_toBottomOf="@id/nacionalenpark_text"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="72dp" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Heraclea Lyncestis"
+            app:layout_constraintBottom_toTopOf="@+id/heraklea_text"
+            app:layout_constraintTop_toBottomOf="@+id/heraklea_img"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <TextView
+            android:id="@+id/heraklea_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Heraclea Lyncestis, also spelled Herakleia Lynkestis (Greek: Ἡράκλεια Λυγκηστίς; Latin: Heraclea Lyncestis; Macedonian: Хераклеа Линкестис),[1] was an ancient Greek city[2][3][4] in Macedon, ruled later by the Romans. Its ruins are situated 2 km south of the present-day town of Bitola, North Macedonia.[5] It was founded by Philip II of Macedon in the middle of the 4th century BC. The city was named in honor of the mythological hero Heracles. The name Lynkestis originates from the name of the ancient kingdom, conquered by Philip, where the city was built.
+
+Heraclea was a strategically important town during the Hellenistic period, as it was at the edge of Macedon's border with Epirus to the west and Paeonia to the north, until the middle of the 2nd century BC, when the Romans conquered Macedon and destroyed its political power. The Romans divided Macedonia into 4 regions and Heraclea was in the fourth region. The main Roman road in the area, Via Egnatia went through Heraclea, and Heraclea was an important stop. The prosperity of the city was maintained mainly due to this road. Objects discovered from the time of Roman rule in Heraclea are votive monuments, a portico, thermae (baths), a theatre and town walls.
+
+In the early Christian period, Heraclea was an important Episcopal seat. Some of its bishops are mentioned in synods in Serdica and other nearby towns. The city was gradually abandoned in the 6th century AD following an earthquake and Slavic invasions."
+            tools:layout_editor_absoluteX="1dp"
+            android:padding="15dp"
+            tools:layout_editor_absoluteY="30dp"
+            app:layout_constraintTop_toBottomOf="@id/heraklea_img"/>
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
